@@ -1,6 +1,6 @@
 {
-    "name": "swag/api-controller",
-    "description": "API controller plugin",
+    "name": "swag/custom-entity",
+    "description": "Custom entity plugin",
     "version": "v1.0.0",
     "type": "shopware-plugin",
     "license": "MIT",
@@ -13,14 +13,14 @@
         "shopware/platform": "dev-master"
     },
     "extra": {
-        "installer-name": "ApiController",
+        "installer-name": "CustomEntity",
         "label": {
-            "de_DE": "Beispiel API Controller",
-            "en_GB": "Example API controller"
+            "de_DE": "Plugin mit einer individuellen Entität",
+            "en_GB": "Custom entity plugin"
         },
         "description": {
-            "de_DE": "Beispiel API Controller",
-            "en_GB": "Example API controller"
+            "de_DE": "Plugin mit einer individuellen Entität",
+            "en_GB": "Custom entity plugin"
         }
     }
 }
