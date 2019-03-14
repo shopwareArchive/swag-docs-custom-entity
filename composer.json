@@ -1,0 +1,26 @@
+{
+    "name": "swag/api-controller",
+    "description": "API controller plugin",
+    "version": "v1.0.0",
+    "type": "shopware-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "shopware AG"
+        }
+    ],
+    "require": {
+        "shopware/platform": "dev-master"
+    },
+    "extra": {
+        "installer-name": "ApiController",
+        "label": {
+            "de_DE": "Beispiel API Controller",
+            "en_GB": "Example API controller"
+        },
+        "description": {
+            "de_DE": "Beispiel API Controller",
+            "en_GB": "Example API controller"
+        }
+    }
+}
