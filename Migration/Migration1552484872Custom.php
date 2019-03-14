@@ -17,7 +17,7 @@ class Migration1552484872Custom extends MigrationStep
         $sql = <<<SQL
 CREATE TABLE IF NOT EXISTS `custom_entity` (
     `id` BINARY(16) NOT NULL,
-    `name` VARCHAR(255) COLLATE utf8mb4_unicode_ci,
+    `technical_name` VARCHAR(255) COLLATE utf8mb4_unicode_ci,
     `created_at` DATETIME(3) NOT NULL,
     `updated_at` DATETIME(3),
     PRIMARY KEY (`id`)

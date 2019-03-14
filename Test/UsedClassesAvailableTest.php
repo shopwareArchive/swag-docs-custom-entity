@@ -29,7 +29,7 @@ class UsedClassesAvailableTest extends TestCase
     private function getPluginClasses(): Finder
     {
         $finder = new Finder();
-        $finder->in(realpath(__DIR__ . '/ApiController/'));
+        $finder->in(realpath(__DIR__ . '/../'));
         $finder->exclude('Test');
         return $finder->files()->name('*.php');
     }

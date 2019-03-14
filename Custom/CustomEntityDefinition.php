@@ -22,7 +22,7 @@ class CustomEntityDefinition extends EntityDefinition
     {
         return new FieldCollection([
             (new IdField('id', 'id'))->addFlags(new PrimaryKey(), new Required()),
-            new StringField('name', 'name'),
+            new StringField('technical_name', 'technicalName'),
             new CreatedAtField(),
             new UpdatedAtField(),
         ]);
