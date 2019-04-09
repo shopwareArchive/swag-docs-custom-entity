@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace CustomEntity\Custom;
+namespace Swag\CustomEntity\Custom;
 
 use Shopware\Core\Framework\DataAbstractionLayer\EntityDefinition;
 use Shopware\Core\Framework\DataAbstractionLayer\Field\CreatedAtField;
