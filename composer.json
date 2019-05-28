@@ -15,12 +15,12 @@
     "extra": {
         "shopware-plugin-class": "Swag\\CustomEntity\\CustomEntity",
         "label": {
-            "de-DE": "Plugin mit einer individuellen Entität",
-            "en-GB": "Custom entity plugin"
+            "de-DE": "Label für das Plugin CustomEntity",
+            "en-GB": "Label for the plugin CustomEntity"
         },
         "description": {
-            "de-DE": "Plugin mit einer individuellen Entität",
-            "en-GB": "Custom entity plugin"
+            "de-DE": "Beschreibung für das Plugin CustomEntity",
+            "en-GB": "Description for the plugin CustomEntity"
         }
     },
     "autoload": {
